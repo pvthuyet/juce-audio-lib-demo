@@ -1,0 +1,8 @@
+# ninja log v5
+19	520	7734715743921633	CMakeFiles/TestAudioDLL.dir/main.cpp.obj	e7cbf96a1ad1d1c4
+520	775	7734715745222817	TestAudioDLL.exe	eb5d35c658ab1041
+9	956	7734727951233061	CMakeFiles/TestAudioDLL.dir/main.cpp.obj	e7cbf96a1ad1d1c4
+957	1400	7734727953224893	TestAudioDLL.exe	d65c10ee0ea7f70b
+2	497	7734728225582906	CMakeFiles/TestAudioDLL.dir/main.cpp.obj	e7cbf96a1ad1d1c4
+498	902	7734728227963390	TestAudioDLL.exe	d65c10ee0ea7f70b
+2	364	7734749112652432	TestAudioDLL.exe	d65c10ee0ea7f70b
