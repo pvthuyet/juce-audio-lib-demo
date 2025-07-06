@@ -3,11 +3,9 @@
 <JUCERPROJECT id="VRXE06" name="AudioLibDemo" projectType="dll" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
   <MAINGROUP id="NYvXJu" name="AudioLibDemo">
-    <GROUP id="{A5F60E23-C523-C40F-C772-BD932AF60017}" name="Header">
-      <FILE id="EVlOXb" name="AudioDLL.h" compile="0" resource="0" file="Source/AudioDLL.h"/>
-    </GROUP>
     <GROUP id="{0BEF9992-109D-F68E-5E5F-A5E5BD900307}" name="Source">
-      <FILE id="pLgpcG" name="AudioDLL.cpp" compile="1" resource="0" file="Source/AudioDLL.cpp"/>
+      <FILE id="qD70xy" name="AudioAPI.cpp" compile="1" resource="0" file="Source/AudioAPI.cpp"/>
+      <FILE id="rVfx7G" name="AudioAPI.h" compile="0" resource="0" file="Source/AudioAPI.h"/>
       <FILE id="B1jGc6" name="AudioPlayerImpl.cpp" compile="1" resource="0"
             file="Source/AudioPlayerImpl.cpp"/>
       <FILE id="B9Vtqu" name="AudioPlayerImpl.h" compile="0" resource="0"

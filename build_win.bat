@@ -1,3 +1,3 @@
-cmake -B build-win -DCMAKE_BUILD_TYPE=Debug
-cmake --build build-win --target AudioLibDemo
-cmake --install build-win --config Debug --prefix bin
+cmake -B android-build -DCMAKE_BUILD_TYPE=Debug
+cmake --build android-build --target AudioLibDemo
+cmake --install android-build --config Debug --prefix bin
