@@ -1,14 +1,14 @@
 /*
   ==============================================================================
 
-    AudioDLL.cpp
+    AudioAPI.cpp
     Created: 6 Jul 2025 7:27:50am
     Author:  thuyet
 
   ==============================================================================
 */
 
-#include "AudioDLL.h"
+#include "AudioAPI.h"
 #include "AudioPlayerImpl.h"
 #include <memory>
 
@@ -17,8 +17,7 @@ extern "C" {
 
 void initEnv()
 {
-    auto init = juce::ScopedJuceInitialiser_GUI();
-    auto mm = juce::MessageManager::getInstance();
+    juce::ScopedJuceInitialiser_GUI{};
 }
 
 AudioPlayerHandle createAudioPlayer()
